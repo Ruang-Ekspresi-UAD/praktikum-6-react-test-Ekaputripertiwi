@@ -1,7 +1,8 @@
+// display.js
 import React from 'react';
 
 const Display = ({ value }) => {
-  return <p data-testid="display-value">Value: {value}</p>;
+  return <div data-testid="display-value">{value}</div>;
 };
 
 export default Display;
